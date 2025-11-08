@@ -35,7 +35,7 @@
 
         /* ---- Hero / intro ---- */
         .hero {
-            background:url('./021232.png') center/cover no-repeat;
+            background:url('/img/021232.png') center/cover no-repeat;
             color: aqua;
             text-align:center;
             padding:4rem 1rem;
