@@ -1,2 +1,13 @@
-# portfolio
-My Portfolio Page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merry Christmas</title>
+</head>
+<body>
+    <marquee behavior="scroll" direction="right">
+        <h1>Happy Holidays from EURALJOS!</h1>
+    </marquee>
+</body>
+</html>
