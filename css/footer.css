@@ -1,0 +1,54 @@
+/* Make the footer stick to bottom only if content is short (optional layout) */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-footer {
+  margin-top: auto;            /* pushes footer to bottom */
+  padding: 12px 16px;
+  background-color: navy;   /* adjust to your theme */
+}
+
+/* Center footer content */
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;              /* center within page */
+}
+
+/* Inline logo + text, centered */
+.footer-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;     /* center within the footer */
+  gap: 8px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-link p {
+  color: aqua;
+  margin: 0;
+}
+
+footer img {
+    width: 30px;
+}
+
+/* Mobile-friendly tweaks */
+@media (max-width: 480px) {
+  .footer-link {
+    flex-wrap: wrap;          /* allow logo to go under text if too tight */
+    text-align: center;
+  }
+
+  .footer-link img {
+    max-width: 120px;         /* keep logo from being too big */
+    height: auto;
+  }
+}

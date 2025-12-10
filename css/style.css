@@ -43,7 +43,7 @@
         .hero h1 { font-size:2.5rem; margin-bottom:0.5rem; }
         .hero p  { font-size:1.2rem; }
 
-        .logo img {
+        img {
             max-width: 200px;
         }
         /* ---- Section layout ---- */
